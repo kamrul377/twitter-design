@@ -42,7 +42,7 @@ const iconLIst = [
 
 const SideNav = () => {
     return (
-        <div className='w-[100px] bg-white h-screen shadow-sm fixed justify-between flex flex-col'>
+        <div className='w-[60px]  md:w-[100px] :bg-white h-screen shadow-sm fixed justify-between flex flex-col'>
             <div className="logos flex flex-col gap-2 my-1">
                 {
                     iconLIst.map((ic, i) => {

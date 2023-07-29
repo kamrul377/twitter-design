@@ -89,6 +89,8 @@ const Home = () => {
 
             e.target.reset()
             setPostImage(null)
+
+            window.location.reload(true)
         }
 
 
@@ -96,7 +98,7 @@ const Home = () => {
     }
 
     return (
-        <div className='min-h-screen flex flex-col w-[100%] md:w-[60%] border ml-[100px]'>
+        <div className='min-h-screen flex flex-col w-[100%] md:w-[60%] border ml-[60px] md:ml-[100px] overflow-x-hidden'>
             <div className="nav-heading">
                 <h1 className='font-bold text-2xl py-2 mx-2'>Home</h1>
                 <div className="tabs flex justify-between border-b-[1px]">
